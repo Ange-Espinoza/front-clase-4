@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+--bs-body-font-family: 'Montserrat', sans-serif;    
+}
+
+nav {
+    backdrop-filter: blur(0.5rem);
+}
+
+.active:before {
+    content: "→ ";
+}
+
+@media (min-width: 992px) {
+    .active:before {
+        content: "↓ ";
+    }
+}
+
+#fondito{
+    background:blue url('https://picsum.photos/id/122/1400/800') no-repeat top left;
+    background-size:cover;
+}
